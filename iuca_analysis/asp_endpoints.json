@@ -1,0 +1,237 @@
+{
+  "/.well-known/openid-configuration": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2F.well-known%2Fopenid-configuration",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:03 GMT"
+    }
+  },
+  "/signin-google": {
+    "status": 500,
+    "len": 4209,
+    "headers": {
+      "Cache-Control": "no-cache,no-store",
+      "Pragma": "no-cache",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/html; charset=utf-8",
+      "Expires": "-1",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:03 GMT"
+    }
+  },
+  "/signin-oidc": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fsignin-oidc",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:03 GMT"
+    }
+  },
+  "/Account/Login": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "/Account/GoogleLogin",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:04 GMT"
+    }
+  },
+  "/Account/Register": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2FAccount%2FRegister",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:04 GMT"
+    }
+  },
+  "/Account/GoogleLogin": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=435578435092-ji2tkc3ubmv6e079rnj5l12q4mg756di.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fmy.iuca.kg%2Fsignin-google&scope=openid%20profile%20email&state=CfDJ8GkDCIaZ6XRCrz3GKRORK7_DJtAni2A7Ws5OnYmYybEiAklq5-oZA7Pit2Oc7i-zJcQWIWhX1waZ6_1ivYwPIEccyRX0Ph_4U7-GadBlBBxiRDZ7mZ-U_GX-0dPF3au3aHRRoWwkn9TC5NRTBHHxR808VWVZ_tWjAQSf9gTMGZdpEeqvwJkmT2NVW9cJAcDHXWCtLLoK7xG8TbgVEDCBL6yCGgPWd39r6JWGh2k238-_H8zafdIHafUtPkjXRPt7mjOmmUdGuLmpUOHqhzXuys4",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Set-Cookie": ".AspNetCore.Correlation.4askuiYWlya-J1OH0PHAolMENKnLI7G9fOrfdGlXLP8=N; expires=Wed, 16 Sep 2026 17:15:05 GMT; path=/signin-google; secure; samesite=none; httponly",
+      "Date": "Wed, 16 Sep 2026 17:00:04 GMT"
+    }
+  },
+  "/Account/Logout": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2FAccount%2FLogout",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:05 GMT"
+    }
+  },
+  "/Account/AccessDenied": {
+    "status": 200,
+    "len": 4162,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:05 GMT"
+    }
+  },
+  "/Home/Error": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2FHome%2FError",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:06 GMT"
+    }
+  },
+  "/trace.axd": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Ftrace.axd",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:06 GMT"
+    }
+  },
+  "/elmah.axd": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Felmah.axd",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:06 GMT"
+    }
+  },
+  "/web.config": {
+    "status": 404,
+    "len": 1207,
+    "headers": {
+      "Content-Type": "text/html",
+      "Server": "Microsoft-IIS/10.0",
+      "Date": "Wed, 16 Sep 2026 17:00:08 GMT",
+      "Connection": "close",
+      "Content-Length": "1207"
+    }
+  },
+  "/global.asax": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fglobal.asax",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:09 GMT"
+    }
+  },
+  "/api": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fapi",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:09 GMT"
+    }
+  },
+  "/api/v1": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fapi%2Fv1",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:10 GMT"
+    }
+  },
+  "/api/users": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fapi%2Fusers",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:10 GMT"
+    }
+  },
+  "/swagger": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fswagger",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:10 GMT"
+    }
+  },
+  "/swagger/index.html": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fswagger%2Findex.html",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:12 GMT"
+    }
+  },
+  "/health": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fhealth",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:12 GMT"
+    }
+  },
+  "/healthz": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fhealthz",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:12 GMT"
+    }
+  },
+  "/metrics": {
+    "status": 302,
+    "len": 0,
+    "headers": {
+      "Transfer-Encoding": "chunked",
+      "Location": "https://my.iuca.kg/Account/Login?ReturnUrl=%2Fmetrics",
+      "Server": "Microsoft-IIS/10.0",
+      "Strict-Transport-Security": "max-age=2592000",
+      "Date": "Wed, 16 Sep 2026 17:00:13 GMT"
+    }
+  }
+}

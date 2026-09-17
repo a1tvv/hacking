@@ -1,0 +1,171 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host my.iuca.kg:443 was resolved.
+* IPv6: (none)
+* IPv4: 213.145.151.190
+*   Trying 213.145.151.190:443...
+* Connected to my.iuca.kg (213.145.151.190) port 443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+} [315 bytes data]
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* (304) (IN), TLS handshake, Server hello (2):
+{ [94 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4185 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [493 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [102 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+{ [1 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=my.iuca.kg
+*  start date: Aug 31 04:28:10 2026 GMT
+*  expire date: Nov 29 04:28:09 2026 GMT
+*  issuer: C=US; O=Let's Encrypt; CN=YR1
+*  SSL certificate verify ok.
+* using HTTP/2
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0* [HTTP/2] [1] OPENED stream for https://my.iuca.kg/signin-google
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: my.iuca.kg]
+* [HTTP/2] [1] [:path: /signin-google]
+* [HTTP/2] [1] [user-agent: curl/8.7.1]
+* [HTTP/2] [1] [accept: */*]
+> GET /signin-google HTTP/2
+> Host: my.iuca.kg
+> User-Agent: curl/8.7.1
+> Accept: */*
+> 
+* Request completely sent off
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0< HTTP/2 500 
+< cache-control: no-cache,no-store
+< pragma: no-cache
+< content-type: text/html; charset=utf-8
+< expires: -1
+< server: Microsoft-IIS/10.0
+< strict-transport-security: max-age=2592000
+< date: Wed, 16 Sep 2026 17:03:30 GMT
+< 
+{ [4209 bytes data]
+100  4209    0  4209    0     0   1254      0 --:--:--  0:00:03 --:--:--  1255
+* Connection #0 to host my.iuca.kg left intact
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error | My IUCA</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-multiselect.min.css" />
+    <link rel="stylesheet" href="/lib/bootstrap-select-1.13.14/dist/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="/lib/select2-4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap4-toggle/bootstrap4-toggle.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="stylesheet" href="/font-awesome/css/all.css" />
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-blue text-white mb-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                    </ul>
+
+                    
+
+<ul class="navbar-nav">
+</ul>
+
+                    
+
+<ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="/Account/GoogleLogin">Sign in</a>
+        </li>
+</ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container main">
+        <main role="main" class="pb-3">
+            
+<h3 class="text-danger">Error.</h3>
+<h3 class="text-danger">An error occurred while processing your request.</h3>
+<h3 class="text-danger">Сообщите о проблеме на почту helpdesk@iuca.kg</h3>
+
+    <p>
+        <strong>Request ID:</strong> <code>00-64c253143171d931f0535bee45263d7b-cb5da596eb27717b-00</code>
+    </p>
+
+
+
+        </main>
+
+        
+<div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-labelledby="popupModalLabel" aria-hidden="true" style="z-index: 1060;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="popupModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - IUCA
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery/dist/jquery.unobtrusive-ajax.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap-multiselect.min.js"></script>
+    <script src="/lib/bootstrap-select-1.13.14/dist/js/bootstrap-select.min.js"></script>
+    <script src="/lib/bootstrap4-toggle/bootstrap4-toggle.min.js"></script>
+    <script src="/lib/Sortable/Sortable.js"></script>
+    <script src="/lib/select2-4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="/lib/google-charts/loader.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="/js/consts.js?v=yegVivHeB-X4opZ8DaDNEFbZuwuaHFzH-iOaaVq4l-s"></script>
+    <script src="/js/popupModal.js?v=bpOeHkePE4w1ZsSibWbufI4viBYZnVdVvRVZ6HfooZk"></script>
+
+    <script src="/js/loading-button.js?v=4Fmv9tUt0F3E_VVtqASZwPkciusPvE1L5RoKPp9Jv5M"></script>
+
+    
+</body>
+</html>
+ 

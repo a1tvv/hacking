@@ -1,0 +1,8 @@
+/Account/GoogleLogin
+/css/site.css
+/font-awesome/css/all.css
+/lib/bootstrap-select-1.13.14/dist/css/bootstrap-select.min.css
+/lib/bootstrap/dist/css/bootstrap-multiselect.min.css
+/lib/bootstrap/dist/css/bootstrap.min.css
+/lib/bootstrap4-toggle/bootstrap4-toggle.min.css
+/lib/select2-4.1.0-rc.0/dist/css/select2.min.css
